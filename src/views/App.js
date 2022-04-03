@@ -2,6 +2,8 @@ import './App.scss';
 import Nav from './Nav/Nav';
 import Home from './Home/Home';
 import ListTodo from './Todos/ListTodo';
+import About from './About/About';
+import User from './User/User';
 
 import {
   BrowserRouter,
@@ -18,6 +20,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/todo" element={<ListTodo />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/user" element={<User />} />
             {/* <Route path="/">
               <Home />
             </Route>
