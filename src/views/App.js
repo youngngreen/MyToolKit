@@ -3,7 +3,8 @@ import Nav from './Nav/Nav';
 import Home from './Home/Home';
 import ListTodo from './Todos/ListTodo';
 import About from './About/About';
-import User from './User/User';
+import ListUser from './User/ListUser';
+import Calculator from './Calculator/Calculator';
 
 import {
   BrowserRouter,
@@ -21,14 +22,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/todo" element={<ListTodo />} />
             <Route path="/about" element={<About />} />
-            <Route path="/user" element={<User />} />
-            {/* <Route path="/">
-              <Home />
-            </Route>
-
-            <Route path="/todo">
-              <ListTodo />
-            </Route> */}
+            <Route path="/user" element={<ListUser />} />
+            <Route path="/calculator" element={<Calculator />} />
           </Routes>
         </header>
       </div>
