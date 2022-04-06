@@ -5,6 +5,7 @@ import ListTodo from './Todos/ListTodo';
 import About from './About/About';
 import ListUser from './User/ListUser';
 import Calculator from './Calculator/Calculator';
+import Emoji from './Emoji/Emoji';
 
 import {
   BrowserRouter,
@@ -24,6 +25,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/user" element={<ListUser />} />
             <Route path="/calculator" element={<Calculator />} />
+            <Route path="/emoji" element={<Emoji />} />
           </Routes>
         </header>
       </div>

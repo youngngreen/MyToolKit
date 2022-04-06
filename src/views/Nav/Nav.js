@@ -26,6 +26,10 @@ class Nav extends React.Component {
                 <NavLink to="/about" activeClassName="active">
                     About
                 </NavLink>
+
+                <NavLink to="/emoji" activeClassName="active">
+                    Emoji Search
+                </NavLink>
             </div>
         )
     }
