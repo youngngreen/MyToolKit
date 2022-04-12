@@ -23,13 +23,22 @@ class Nav extends React.Component {
                     Calculator
                 </NavLink>
 
-                <NavLink to="/about" activeClassName="active">
-                    About
-                </NavLink>
 
                 <NavLink to="/emoji" activeClassName="active">
                     Emoji Search
                 </NavLink>
+
+                <NavLink to="/photocompresser" activeClassName="active">
+                    Photo Compresser
+                </NavLink>
+
+                <NavLink to="/dictionary" activeClassName="active">
+                    Dictionary
+                </NavLink>
+
+                <NavLink to="/about" activeClassName="active">
+                    About
+                </NavLink>                
             </div>
         )
     }

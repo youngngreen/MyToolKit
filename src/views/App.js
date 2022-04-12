@@ -6,6 +6,8 @@ import About from './About/About';
 import ListUser from './User/ListUser';
 import Calculator from './Calculator/Calculator';
 import Emoji from './Emoji/Emoji';
+import PhotoCompresser from './PhotoCompresser/PhotoCompresser';
+import Dictionary from './Dictionary/Dictionary';
 
 import {
   BrowserRouter,
@@ -26,6 +28,8 @@ function App() {
             <Route path="/user" element={<ListUser />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/emoji" element={<Emoji />} />
+            <Route path="/photocompresser" element={<PhotoCompresser />} />
+            <Route path="/dictionary" element={<Dictionary />} />
           </Routes>
         </header>
       </div>
