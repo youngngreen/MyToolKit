@@ -4,7 +4,7 @@ class About extends React.Component {
     render () {
         return (
             <div>
-                about
+                Hi my name is Thanh Le
             </div>
         )
     }
